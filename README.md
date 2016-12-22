@@ -1,6 +1,8 @@
 # slim3-api-skeleton
 My Slim Framework 3 API Skeleton with Logging
 
+Am using silalahi/slim-logger to log my requests and response.
+
 ## Install
 
 ```shell
@@ -12,18 +14,28 @@ $ composer dump-autoload -o
 
 ```
 
-create logs folder
-## References
+Create logs folder to store logs.
 
-https://github.com/akrabat/slim-api-skeleton
+## Run
 
-https://packagist.org/packages/silalahi/slim-logger
-
+```
+$ php -S 0.0.0.0:7010 -t public public/index.php
+```
 
 http://localhost:7010/getUser?mobno=2
 
 http://localhost:7010/getAllCustomers
 
-$ php -S 0.0.0.0:7010 -t public public/index.php
+```
+$ php -S 0.0.0.0:7010 
+```
 
+http://localhost:7010/public/getUser?mobno=2
 
+http://localhost:7010/public/getAllCustomers
+
+## References
+
+https://github.com/akrabat/slim-api-skeleton
+
+https://packagist.org/packages/silalahi/slim-logger
