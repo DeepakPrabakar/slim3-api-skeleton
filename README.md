@@ -34,6 +34,33 @@ http://localhost:7010/public/getUser?mobno=2
 
 http://localhost:7010/public/getAllCustomers
 
+### Templates
+
+```
+slim3-api-skeleton
+├── app
+|   ├── app.php
+|   ├── dependencies.php
+|   ├── middleware.php
+|   ├── routes.php
+|   ├── settings.php
+│   └── src
+|        └── Controllers
+│            ├── Controllers.php
+|            ├── CustomerDetails.php
+|            └── OrderDetails.php
+├── logs
+├── public
+|   ├── .htaccess
+|   └── index.php
+├── vendor
+├── .gitignore
+├── composer.json
+├── composer.lock
+└── README.md
+```
+
+
 ## References
 
 https://github.com/akrabat/slim-api-skeleton
