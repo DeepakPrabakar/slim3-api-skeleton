@@ -1,4 +1,4 @@
-# slim3-api-skeleton
+# Slim Framework 3 API Skeleton
 My Slim Framework 3 API Skeleton with Logging
 
 Am using silalahi/slim-logger to log my requests and response.
