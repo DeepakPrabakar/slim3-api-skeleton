@@ -34,7 +34,7 @@ http://localhost:7010/public/getUser?mobno=2
 
 http://localhost:7010/public/getAllCustomers
 
-### Templates
+### Directory Structure
 
 ```
 slim3-api-skeleton
