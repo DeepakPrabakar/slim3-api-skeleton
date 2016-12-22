@@ -1,7 +1,9 @@
 # Slim Framework 3 API Skeleton
 My Slim Framework 3 API Skeleton with Logging
 
-Am using silalahi/slim-logger to log my requests and response.
+* Using silalahi/slim-logger to log my requests and response.
+* The logger is used in the container as well as a middleware.
+* Using PSR-4 Autoloading to load the classes automcatically.
 
 ## Install
 
@@ -18,7 +20,7 @@ Create logs folder to store logs.
 
 ## Run
 
-```
+```shell
 $ php -S 0.0.0.0:7010 -t public public/index.php
 ```
 
@@ -26,7 +28,7 @@ http://localhost:7010/getUser?mobno=2
 
 http://localhost:7010/getAllCustomers
 
-```
+```shell
 $ php -S 0.0.0.0:7010 
 ```
 
